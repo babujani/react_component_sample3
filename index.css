@@ -1,0 +1,44 @@
+.notification-box {
+  height: 50px;
+  width: 250px;
+  background-color: #0b69ff;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+@media (min-width: 768px) {
+  .notification-box {
+    width: 400px;
+  }
+}
+.icon {
+  height: 18px;
+  align-self: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.notif-content-box {
+  display: flex;
+  flex-direction: row;
+}
+.main-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.info {
+  background-color: #0b69ff;
+}
+.success {
+  background-color: lightgreen;
+}
+.warning {
+  background-color: gold;
+}
+.danger {
+  background-color: red;
+}
+h1 {
+  font-family: "roboto";
+}
